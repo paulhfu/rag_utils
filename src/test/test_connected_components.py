@@ -20,7 +20,7 @@ class TestRagUtils(unittest.TestCase):
         from rag_utils import find_dense_subgraphs
         edges = []
         nodes = []
-        bs = 343 #343
+        bs = 10 #343
         for i in range(bs):
             file = h5py.File("rags_h5/rag_" + str(i) + ".h5", "r")
             edges.append(file["edges"][:])
