@@ -18,6 +18,7 @@ namespace graph_utils {
 		}
 	};
 
+	//@brief This function will find random connected and dense subgraphs of certain size in a given region adjacency graph
 	template<class EDGES>
 		inline void find_dense_subgraphs(const xt::xexpression<EDGES> & edges_exp,
 				const std::vector<uint64_t> & subgraph_size,

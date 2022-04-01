@@ -15,7 +15,7 @@ build:
 
 requirements:
   build:
-    - python {{PY_VER}}*
+    - python=3.8
     - cmake
     - pybind11
     - xtensor-python
